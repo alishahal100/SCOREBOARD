@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bas.css">
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+    <div class="container">
+        <div class="home">
+            <h1 id="main-head">HOME</h1>
+            <div class="scoreboard">
+                <h1 id="home-points">0</h1>
+
+            </div>
+            <div class="btn" >
+                <button id="point-btn1" onclick="increment1()">+1</button>
+                <button id="point-btn2" onclick="increment2()">+2</button>
+                <button id="point-btn3" onclick="increment3()">+3</button>
+            </div>
+        </div>
+        <div class="guest">
+            <H1 id="main-head">GUEST</H1>
+            <div class="scoreboard">
+                <h1 id="guest-points">0</h1>
+
+            </div>
+            <div class="btn" >
+                <button id="point-btn1" onclick="incrementGuest1()">+1</button>
+                <button id="point-btn2" onclick="incrementGuest2()">+2</button>
+                <button id="point-btn3" onclick="incrementGuest3()">+3</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="bas.js"></script>
+</body>
+</html>
